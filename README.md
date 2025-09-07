@@ -16,5 +16,6 @@ Here are some details about two test scenarios:
   With the cookie file saved before, I can send an HTTP request and get the response.  
   Then I compare the response with the JSON file created in the UI test, to make sure the data found by `find transactions` matches the stored data.  
 
-- **Auto Test**
+- **Auto Test**:  
   This project is integrated with GitHub Actions to perform auto testing. Once a commit is submitted to the main branch, GitHub Actions will automatically start to run the test cases.
+
