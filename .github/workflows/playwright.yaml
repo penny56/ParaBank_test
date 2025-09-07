@@ -23,7 +23,7 @@ jobs:
     - name: Run Playwright ui tests
       run: pytest tests/ui/test_ui_flow.py
     - name: Run Playwright api tests
-      run: pytest tests/ui/test_api_flow.py
+      run: pytest tests/api/test_api_flow.py
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
@@ -31,3 +31,4 @@ jobs:
         path: playwright-report/
 
         retention-days: 30
+
