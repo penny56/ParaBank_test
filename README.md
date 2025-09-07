@@ -1,4 +1,4 @@
-I have 7 years of work experience with Python in test automation. Could I finish this quiz with Python, and if TypeScript and JavaScript are mandatory in the future, if I get the chance, I can learn them quickly.
+I have 7 years of work experience with Python in test automation. Could I finish this quiz with Python, and if TypeScript and JavaScript are mandatory in the future, if I get the chance, I can learn them in very short time.
 
 Here are some details about two test scenarios:
 
@@ -15,3 +15,4 @@ Here are some details about two test scenarios:
   By checking the **Network** tab in browser *Inspect*, I found the `find transactions` base URL and the `amount` parameter.  
   With the cookie file saved before, I can send an HTTP request and get the response.  
   Then I compare the response with the JSON file created in the UI test, to make sure the data found by `find transactions` matches the stored data.  
+
