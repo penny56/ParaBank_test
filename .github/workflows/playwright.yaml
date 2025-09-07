@@ -20,11 +20,14 @@ jobs:
         pip install -r requirements.txt
         pip install pytest playwright
         playwright install
-    - name: Run Playwright tests
-      run: pytest tests/ui/test_e2e_flow.py
+    - name: Run Playwright ui tests
+      run: pytest tests/ui/test_ui_flow.py
+    - name: Run Playwright api tests
+      run: pytest tests/ui/test_api_flow.py
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
         name: playwright-report
         path: playwright-report/
+
         retention-days: 30
