@@ -1,6 +1,6 @@
 I have 7 years of work experience with Python in test automation. Could I finish this quiz with Python, and if TypeScript and JavaScript are mandatory in the future, if I get the chance, I can learn them in very short time.
 
-Here are some details about two test scenarios:
+Here are some details about two test scenarios: 
 
 - **UI Test scenarios**:  
   Use `BasePage` as the parent class. Each page is a child class. When I need to work with a different page, I create an object of that page class and call its member functions.  
@@ -18,4 +18,5 @@ Here are some details about two test scenarios:
 
 - **Auto Test**:  
   This project is integrated with GitHub Actions to perform auto testing. Once a commit is submitted to the main branch, GitHub Actions will automatically start to run the test cases.
+
 
