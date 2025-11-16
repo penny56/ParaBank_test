@@ -19,4 +19,5 @@ Here are some details about two test scenarios:
 - **Auto Test**:  
   This project is integrated with GitHub Actions to perform auto testing. Once a commit is submitted to the main branch, GitHub Actions will automatically start to run the test cases.
 
+Have an action run on GitHub-hosted runner when each push/pull is performed.
 
